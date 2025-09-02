@@ -19,7 +19,6 @@
     //         <&kp LEFT_ARROW>,
     //         <&kp UP_ARROW>,
     //         <&kp DOWN_ARROW>;
-
     //     tick = <10>;
     //     wait-ms = <5>;
     //     tap-ms = <5>;
@@ -54,27 +53,28 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
-         cb_excl {
+
+        cb_excl {
             bindings = <&kp EXCL>;
-            key-positions = <1 13>;
+            key-positions = <1 11>;
             timeout-ms = <30>;
         };
 
         cb_at {
             bindings = <&kp AT>;
-            key-positions = <2 14>;
+            key-positions = <2 12>;
             timeout-ms = <30>;
         };
 
         cb_hash {
             bindings = <&kp HASH>;
-            key-positions = <3 15>;
+            key-positions = <3 13>;
             timeout-ms = <30>;
         };
 
         cb_dllr {
             bindings = <&kp DLLR>;
-            key-positions = <4 16>;
+            key-positions = <4 14>;
             timeout-ms = <30>;
         };
 
@@ -121,7 +121,7 @@
 
         print-save {
             bindings = <&kp LG(LS(NUMBER_4))>;
-            key-positions = <15 16>;
+            key-positions = <15 27>;
         };
 
         copy {
