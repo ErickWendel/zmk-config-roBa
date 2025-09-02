@@ -54,6 +54,110 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+         cb_excl {
+            bindings = <&kp EXCL>;
+            key-positions = <1 13>;
+            timeout-ms = <30>;
+        };
+
+        cb_at {
+            bindings = <&kp AT>;
+            key-positions = <2 14>;
+            timeout-ms = <30>;
+        };
+
+        cb_hash {
+            bindings = <&kp HASH>;
+            key-positions = <3 15>;
+            timeout-ms = <30>;
+        };
+
+        cb_dllr {
+            bindings = <&kp DLLR>;
+            key-positions = <4 16>;
+            timeout-ms = <30>;
+        };
+
+        cb_prcnt {
+            bindings = <&kp PRCNT>;
+            key-positions = <5 17>;
+            timeout-ms = <30>;
+        };
+
+        cb_caret {
+            bindings = <&kp CARET>;
+            key-positions = <6 18>;
+            timeout-ms = <30>;
+        };
+
+        cb_amps {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <7 19>;
+            timeout-ms = <30>;
+        };
+
+        cb_mult {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <8 20>;
+            timeout-ms = <30>;
+        };
+
+        cb_lparen {
+            bindings = <&kp ASTERISK>;
+            key-positions = <9 21>;
+            timeout-ms = <30>;
+        };
+
+        cb_rparen {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <10 22>;
+            timeout-ms = <30>;
+        };
+
+        play-pause {
+            bindings = <&kp C_PLAY_PAUSE>;
+            key-positions = <19 20>;
+        };
+
+        print-save {
+            bindings = <&kp LG(LS(NUMBER_4))>;
+            key-positions = <15 16>;
+        };
+
+        copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <16 17>;
+        };
+
+        paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <28 29>;
+        };
+
+        select-all {
+            bindings = <&kp LG(A)>;
+            key-positions = <5 4>;
+        };
+
+        next-song {
+            bindings = <&kp C_NEXT>;
+            key-positions = <31 32>;
+        };
+
+        prev-song {
+            bindings = <&kp C_PREV>;
+            key-positions = <19 18>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <6 7>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <4 3>;
+        };
     };
 
     macros {
