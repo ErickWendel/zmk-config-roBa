@@ -39,11 +39,6 @@
             key-positions = <12 13>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <26 27>;
@@ -111,7 +106,7 @@
 
         play-pause {
             bindings = <&kp C_PLAY_PAUSE>;
-            key-positions = <19 20>;
+            key-positions = <18 17>;
         };
 
         copy {
@@ -131,12 +126,12 @@
 
         next-song {
             bindings = <&kp C_NEXT>;
-            key-positions = <31 32>;
+            key-positions = <30 29>;
         };
 
         prev-song {
             bindings = <&kp C_PREV>;
-            key-positions = <19 18>;
+            key-positions = <28 29>;
         };
 
         interrogation {
@@ -146,7 +141,7 @@
 
         togglescroll {
             bindings = <&tog 6>;
-            key-positions = <19 20>;
+            key-positions = <19 18>;
         };
     };
 
