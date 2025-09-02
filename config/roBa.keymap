@@ -39,11 +39,6 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
@@ -51,7 +46,7 @@
 
         eq {
             bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+            key-positions = <26 27>;
         };
 
         cb_excl {
@@ -110,7 +105,7 @@
 
         cb_rparen {
             bindings = <&kp AMPERSAND>;
-            key-positions = <10 22>;
+            key-positions = <10 0>;
             timeout-ms = <30>;
         };
 
@@ -119,24 +114,19 @@
             key-positions = <19 20>;
         };
 
-        print-save {
-            bindings = <&kp LG(LS(NUMBER_4))>;
-            key-positions = <15 27>;
-        };
-
         copy {
             bindings = <&kp LG(C)>;
-            key-positions = <16 17>;
+            key-positions = <14 13>;
         };
 
         paste {
             bindings = <&kp LG(V)>;
-            key-positions = <28 29>;
+            key-positions = <25 26>;
         };
 
         select-all {
             bindings = <&kp LG(A)>;
-            key-positions = <5 4>;
+            key-positions = <4 3>;
         };
 
         next-song {
@@ -147,16 +137,6 @@
         prev-song {
             bindings = <&kp C_PREV>;
             key-positions = <19 18>;
-        };
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <6 7>;
-        };
-
-        esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <4 3>;
         };
     };
 
