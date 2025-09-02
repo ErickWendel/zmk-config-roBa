@@ -138,6 +138,11 @@
             bindings = <&kp C_PREV>;
             key-positions = <19 18>;
         };
+
+        interrogation {
+            bindings = <&kp QUESTION>;
+            key-positions = <5 6>;
+        };
     };
 
     macros {
