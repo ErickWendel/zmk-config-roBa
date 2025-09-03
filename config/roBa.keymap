@@ -106,7 +106,7 @@
 
         play-pause {
             bindings = <&kp C_PLAY_PAUSE>;
-            key-positions = <18 17>;
+            key-positions = <17 16>;
         };
 
         copy {
@@ -126,12 +126,12 @@
 
         next-song {
             bindings = <&kp C_NEXT>;
-            key-positions = <30 29>;
+            key-positions = <29 28>;
         };
 
         prev-song {
             bindings = <&kp C_PREV>;
-            key-positions = <28 29>;
+            key-positions = <29 30>;
         };
 
         interrogation {
@@ -146,7 +146,7 @@
 
         tilde {
             bindings = <&kp TILDE>;
-            key-positions = <20 21>;
+            key-positions = <17 18>;
         };
     };
 
@@ -211,10 +211,10 @@
 
         navlayer {
             bindings = <
-&kp ESCAPE      &kp LS(LG(GRAVE))  &kp LC(LS(TAB))     &kp LC(TAB)       &kp LG(GRAVE)                      &kp LG(Z)   &kp LG(C)  &kp LG(V)  &kp LG(Z)  &kp LS(LG(Z))
-&kp HOME        &kp LGUI           &kp LEFT_SHIFT      &kp LEFT_CONTROL  &kp LEFT_ALT   &trans      &trans  &kp LEFT    &kp DOWN   &kp UP     &kp RIGHT  &trans
-&kp LEFT_SHIFT  &trans             &kp LG(LA(ESCAPE))  &kp LG(SPACE)     &trans         &trans      &trans  &kp LG(UP)  &kp PG_DN  &kp PG_UP  &kp END    &trans
-&trans          &trans             &trans              &trans            &trans         &trans      &trans  &trans                                       &trans
+&kp ESCAPE    &kp LS(LG(GRAVE))  &kp LC(LS(TAB))     &kp LC(TAB)       &kp LG(GRAVE)                      &kp LG(Z)   &kp LG(C)  &kp LG(V)  &kp LG(Z)  &kp LS(LG(Z))
+&kp LEFT_GUI  &kp LEFT_ALT       &kp LEFT_SHIFT      &kp LEFT_CONTROL  &trans         &trans      &trans  &kp LEFT    &kp DOWN   &kp UP     &kp RIGHT  &trans
+&trans        &trans             &kp LG(LA(ESCAPE))  &kp LG(SPACE)     &trans         &trans      &trans  &kp LG(UP)  &kp PG_DN  &kp PG_UP  &kp END    &trans
+&trans        &trans             &trans              &trans            &trans         &trans      &trans  &trans                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -231,10 +231,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans                &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1              &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LG(LS(NUMBER_4))  &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                            &trans
+&trans  &trans  &trans         &trans        &trans                          &trans  &trans                &trans    &trans    &trans
+&trans  &trans  &kp LG(MINUS)  &kp LG(PLUS)  &kp LG(N0)  &trans      &trans  &trans  &mkp MB1              &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans         &trans        &trans      &trans      &trans  &trans  &kp LG(LS(NUMBER_4))  &trans    &trans    &trans
+&trans  &trans  &trans         &trans        &trans      &trans      &trans  &trans                                            &trans
             >;
         };
 
