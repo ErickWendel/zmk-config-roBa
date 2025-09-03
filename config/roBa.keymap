@@ -70,31 +70,31 @@
 
         cb_prcnt {
             bindings = <&kp PRCNT>;
-            key-positions = <5 17>;
+            key-positions = <4 14>;
             timeout-ms = <30>;
         };
 
         cb_caret {
             bindings = <&kp CARET>;
-            key-positions = <6 18>;
+            key-positions = <5 17>;
             timeout-ms = <30>;
         };
 
         cb_amps {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <7 19>;
+            key-positions = <6 18>;
             timeout-ms = <30>;
         };
 
         cb_mult {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <8 20>;
+            key-positions = <7 19>;
             timeout-ms = <30>;
         };
 
         cb_lparen {
             bindings = <&kp ASTERISK>;
-            key-positions = <9 21>;
+            key-positions = <8 20 20>;
             timeout-ms = <30>;
         };
 
