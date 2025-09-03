@@ -3,11 +3,11 @@ name: "Draw Keymap"
 on:
   workflow_dispatch:
   # push時に自動で実行する場合は、以下のコメントアウトを外す
-  # push:
-  #   paths:
-  #     - "config/roBa.keymap"
-  #     - "keymap_drawer.config.yaml"
-  #     - "config/roBa.dtsi"
+  push:
+    paths:
+      - "config/roBa.keymap"
+      - "keymap_drawer.config.yaml"
+      # - "config/roBa.dtsi"
 
 jobs:
   draw:
@@ -15,8 +15,8 @@ jobs:
     permissions:
       contents: write
     with:
-      commit_message: "[Draw] ${{ github.event.head_commit.message || 'Update keymap drawing' }}"
-      amend_commit: false
+      commit_message: "[Draw] 'Update keymap drawing'"
+      amend_commit: true
       keymap_patterns: "config/*.keymap"
       json_path: "config"
       config_path: "keymap_drawer.config.yaml" # config file, ignored if not exists
