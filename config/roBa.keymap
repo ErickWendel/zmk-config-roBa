@@ -143,6 +143,11 @@
             bindings = <&tog 6>;
             key-positions = <19 18>;
         };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <20 21>;
+        };
     };
 
     macros {
