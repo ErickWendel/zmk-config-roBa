@@ -39,11 +39,6 @@
             key-positions = <12 13>;
         };
 
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <26 27>;
-        };
-
         cb_excl {
             bindings = <&kp EXCL>;
             key-positions = <1 11>;
@@ -211,10 +206,10 @@
 
         navlayer {
             bindings = <
-&kp ESCAPE    &kp LS(LG(GRAVE))  &kp LC(LS(TAB))     &kp LC(TAB)       &kp LG(GRAVE)                      &kp LG(Z)   &kp LG(C)  &kp LG(V)  &kp LG(Z)  &kp LS(LG(Z))
-&kp LEFT_GUI  &kp LEFT_ALT       &kp LEFT_SHIFT      &kp LEFT_CONTROL  &trans         &trans      &trans  &kp LEFT    &kp DOWN   &kp UP     &kp RIGHT  &trans
-&trans        &trans             &kp LG(LA(ESCAPE))  &kp LG(SPACE)     &trans         &trans      &trans  &kp LG(UP)  &kp PG_DN  &kp PG_UP  &kp END    &trans
-&trans        &trans             &trans              &trans            &trans         &trans      &trans  &trans                                       &trans
+&kp ESCAPE    &kp LS(LG(GRAVE))  &kp LC(LS(TAB))     &kp LC(TAB)       &kp LG(GRAVE)                          &kp LG(Z)   &kp LG(C)  &kp LG(V)  &kp LG(Z)  &kp LS(LG(Z))
+&kp LEFT_GUI  &kp LEFT_ALT       &kp LEFT_SHIFT      &kp LEFT_CONTROL  &trans         &trans      &trans      &kp LEFT    &kp DOWN   &kp UP     &kp RIGHT  &trans
+&trans        &trans             &kp LG(LA(ESCAPE))  &kp LG(SPACE)     &trans         &trans      &trans      &kp LG(UP)  &kp PG_DN  &kp PG_UP  &kp END    &trans
+&trans        &trans             &trans              &trans            &trans         &trans      &kp DELETE  &trans                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;

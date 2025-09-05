@@ -173,7 +173,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   funlayer:
@@ -313,8 +313,6 @@ combos:
   k: TAB
 - p: [12, 13]
   k: Sft+TAB
-- p: [26, 27]
-  k: '='
 - p: [1, 11]
   k: '!'
 - p: [2, 12]
