@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - Sft+Gui+S
+  - Gui+/
   - '-'
   - H
   - J
@@ -35,9 +35,9 @@ layers:
   - ','
   - .
   - /
-  - LCTRL
-  - LEFT WIN
-  - LEFT ALT
+  - {t: LEFT CONTROL, h: Gui+Sft+X}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT GUI
   - '&layer3or4'
   - {t: '&to_layer_0 SPACE', h: symlayer}
@@ -61,9 +61,9 @@ layers:
   - '6'
   - '='
   - Gui+Ctl+SPACE
-  - Ctl+.
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+`
+  - Gui+B
+  - Gui+Sft+P
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -147,7 +147,7 @@ layers:
   - LEFT ALT
   - LEFT SHIFT
   - LEFT CONTROL
-  - {t: ▽, type: trans}
+  - LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
@@ -198,7 +198,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR ALL
   - BT CLR
   - F10
   - F1
@@ -219,7 +219,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+Ctl+Q
-  - {t: BT CLR ALL, type: held}
+  - {type: held}
   MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -233,9 +233,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+-
-  - Gui++
-  - Gui+0
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
