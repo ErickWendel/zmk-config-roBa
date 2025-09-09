@@ -271,9 +271,9 @@ path.combo {
 </text>
 <text x="0" y="24" class="key hold"><tspan style="font-size: 78%">Gui+Sft+X</tspan></text>
 </g>
-<g transform="translate(84, 210)" class="key trans keypos-35">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(84, 210)" class="key keypos-35">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">Ctl+R</text>
 </g>
 <g transform="translate(140, 196)" class="key trans keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

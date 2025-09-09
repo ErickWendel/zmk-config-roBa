@@ -36,7 +36,7 @@ layers:
   - .
   - /
   - {t: LEFT CONTROL, h: Gui+Sft+X}
-  - {t: ▽, type: trans}
+  - Ctl+R
   - {t: ▽, type: trans}
   - LEFT GUI
   - '&layer3or4'
