@@ -148,6 +148,16 @@
             bindings = <&kp LG(LS(V))>;
             key-positions = <26 25 24>;
         };
+
+        undo {
+            bindings = <&kp LG(Z)>;
+            key-positions = <15 14>;
+        };
+
+        redo {
+            bindings = <&kp LG(LS(Z))>;
+            key-positions = <27 26>;
+        };
     };
 
     macros {

@@ -353,3 +353,7 @@ combos:
   k: '~'
 - p: [26, 25, 24]
   k: Gui+Sft+V
+- p: [15, 14]
+  k: Gui+Z
+- p: [27, 26]
+  k: Gui+Sft+Z
