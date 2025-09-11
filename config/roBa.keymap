@@ -148,6 +148,11 @@
             bindings = <&kp LG(LS(V))>;
             key-positions = <26 25 24>;
         };
+
+        cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <14 12 13>;
+        };
     };
 
     macros {
