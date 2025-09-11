@@ -105,7 +105,7 @@
         };
 
         copy {
-            bindings = <&kp LG(C)>;
+            bindings = <&mt LG(C) LG(X)>;
             key-positions = <14 13>;
         };
 
@@ -147,11 +147,6 @@
         paste-without-formatting {
             bindings = <&kp LG(LS(V))>;
             key-positions = <26 25 24>;
-        };
-
-        cut {
-            bindings = <&kp LG(X)>;
-            key-positions = <14 12 13>;
         };
     };
 
