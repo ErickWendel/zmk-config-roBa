@@ -105,7 +105,7 @@
         };
 
         copy {
-            bindings = <&mt LG(C) LG(X)>;
+            bindings = <&kp LG(C)>;
             key-positions = <14 13>;
         };
 

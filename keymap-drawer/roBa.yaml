@@ -336,7 +336,7 @@ combos:
 - p: [17, 16]
   k: PLAY PAUSE
 - p: [14, 13]
-  k: {t: Gui+X, h: Gui+C}
+  k: Gui+C
 - p: [25, 26]
   k: Gui+V
 - p: [4, 3]
