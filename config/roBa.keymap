@@ -143,6 +143,11 @@
             bindings = <&kp TILDE>;
             key-positions = <17 18>;
         };
+
+        paste-without-formatting {
+            bindings = <&kp LG(LS(V))>;
+            key-positions = <26 25 24>;
+        };
     };
 
     macros {

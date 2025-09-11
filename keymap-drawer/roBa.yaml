@@ -351,3 +351,5 @@ combos:
   k: {t: SCROLL, h: toggle}
 - p: [17, 18]
   k: '~'
+- p: [26, 25, 24]
+  k: Gui+Sft+V
