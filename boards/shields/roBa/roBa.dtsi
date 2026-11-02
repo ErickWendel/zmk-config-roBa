@@ -118,6 +118,12 @@
     };
 };
 
+// The xiao_ble board enables I2C on D4/D5 (P0.04/P0.05) by default, which
+// steals the trackball SPI pins and the left encoder pin.
+&xiao_i2c {
+    status = "disabled";
+};
+
 &spi0 {
     status = "disabled";
 
