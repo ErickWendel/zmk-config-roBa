@@ -12,16 +12,16 @@ layers:
   - O
   - P
   - A
-  - S
-  - D
-  - F
+  - {t: S, h: LCTRL}
+  - {t: D, h: LALT}
+  - {t: F, h: LGUI}
   - G
   - Gui+/
   - '-'
   - H
-  - J
-  - K
-  - L
+  - {t: J, h: RGUI}
+  - {t: K, h: RALT}
+  - {t: L, h: RCTRL}
   - ''''
   - {t: Z, h: LEFT SHIFT}
   - X
@@ -34,7 +34,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: RSHFT}
   - {t: LEFT CONTROL, h: Gui+Sft+X}
   - Ctl+R
   - {t: ▽, type: trans}
